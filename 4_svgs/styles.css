@@ -1,0 +1,81 @@
+body {
+  margin-top: 100px;
+  text-align: center;
+}
+
+body > div { position: absolute; }
+
+ul {
+  width: 52px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+li {
+  width: 52px;
+  height: 52px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+svg {
+  width: 52px;
+  height: 52px;
+}
+
+.smile .hover   { display: none; }
+.smile:hover .default { display: none; }
+.smile:hover .hover { display: block; }
+
+.sad:hover {
+  fill: red;
+}
+
+.wink:hover {
+  background-color: black;
+  fill: white;
+}
+
+.grin:hover {
+  stroke: green;
+  stroke-width: 2px;
+  fill: white;
+}
+
+
+/* Issues */
+div {
+  display: inline-block;
+  margin: 20px;
+}
+
+.size-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.size-25 {
+  width: 25px;
+  height: 25px;
+}
+
+.size-48 {
+  width: 48px;
+  height: 48px;
+}
+
+.size-49 {
+  width: 49px;
+  height: 49px;
+}
+
+.size-96 {
+  width: 96px;
+  height: 96px;
+}
+
+.size-97 {
+  width: 97px;
+  height: 97px;
+}

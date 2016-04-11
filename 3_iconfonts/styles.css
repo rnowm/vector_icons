@@ -1,0 +1,57 @@
+body {
+  margin-top: 100px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('icomoon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul {
+  width: 52px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+li {
+  width: 52px;
+  height: 52px;
+  font-size: 48px;
+  padding-top: 2px;
+  margin-bottom: 50px;
+  font-family: 'icomoon';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+
+.smile:before  { content: "\e900"; }
+.smile2:before { content: "\e901"; }
+.sad:before    { content: "\e902"; }
+.sad2:before   { content: "\e903"; }
+.wink:before   { content: "\e904"; }
+.wink2:before  { content: "\e905"; }
+.grin:before   { content: "\e906"; }
+.grin2:before  { content: "\e907"; }
+
+.smile:hover:before {
+  content: "\e904";
+}
+
+.sad:hover {
+  color: red;
+}
+
+.wink:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.grin:hover {
+  text-shadow: 0 0 8px red;
+  color: white;
+}
