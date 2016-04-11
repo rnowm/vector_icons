@@ -29,24 +29,24 @@ li {
   cursor: pointer;
 }
 
-.smile:before  { content: "\e900"; }
-.smile2:before { content: "\e901"; }
-.sad:before    { content: "\e902"; }
-.sad2:before   { content: "\e903"; }
-.wink:before   { content: "\e904"; }
-.wink2:before  { content: "\e905"; }
-.grin:before   { content: "\e906"; }
-.grin2:before  { content: "\e907"; }
+.smile:before    { content: "\e900"; }
+.smile2:before   { content: "\e901"; }
+.sad:before      { content: "\e902"; }
+.sad2:before     { content: "\e903"; }
+.hipster:before  { content: "\e905"; }
+.hipster2:before { content: "\e908"; }
+.grin:before     { content: "\e906"; }
+.grin2:before    { content: "\e907"; }
 
 .smile:hover:before {
-  content: "\e904";
+  content: "\e905";
 }
 
 .sad:hover {
   color: red;
 }
 
-.wink:hover {
+.hipster:hover {
   background-color: black;
   color: yellow;
 }

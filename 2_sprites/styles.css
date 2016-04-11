@@ -20,10 +20,10 @@ li {
 
 .smile { background-position: 0 0; }
 .sad   { background-position: 0 -50px; }
-.wink  { background-position: 0 -100px; }
+.hipster  { background-position: 0 -100px; }
 .grin  { background-position: 0 -150px; }
 
 .smile:hover { background-position: -50px 0; }
 .sad:hover   { background-position: -50px -50px; }
-.wink:hover  { background-position: -50px -100px; }
+.hipster:hover  { background-position: -50px -100px; }
 .grin:hover  { background-position: -50px -150px; }

@@ -1,4 +1,6 @@
-* { font-family: 'Roboto Slab', serif; }
+body { font-family: 'Roboto Slab', serif; }
+h1, h2 { font-family: 'Roboto', sans-serif; }
+
 
 html { background-color: #ff456e; }
 
@@ -13,12 +15,12 @@ body {
 
 h1 {
   margin-bottom: 20px;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 h2 {
-  margin-top: 60px;
-  font-size: 24px;
+  margin-top: 70px;
+  font-size: 28px;
 }
 
 a {
@@ -30,7 +32,7 @@ a:hover { text-decoration: underline; }
 
 h1 svg {
   position: relative;
-  top: 5px;
+  top: 3px;
   left: 3px;
   width: 32px;
   height: 32px;
