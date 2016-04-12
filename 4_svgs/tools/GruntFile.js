@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     connect: {
       main: {
         options: {
-          base: '../',
+          base: '../../',
           port: 8001,
           hostname: '0.0.0.0'
         }
